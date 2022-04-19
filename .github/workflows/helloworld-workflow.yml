@@ -10,8 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: Install npm packages
-        run: npm ci
       - name: Hello World
         uses: ./.github/workflows/actions/helloworld
         with:
