@@ -5,4 +5,4 @@ inputs:
     description: "An example parameter"
 runs:
   using: "node16"
-  main: "./dist/action.js"
+  main: "action.js"
